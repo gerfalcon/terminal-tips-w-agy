@@ -4,7 +4,7 @@ A small crossword you play in the browser. It is the practice repo for the works
 **Terminal Tips and Tricks for Agentic Development**.
 
 Follow the codelab: https://gerfalcon.github.io/portfolio/codelabs/terminal-crossword/
-Workshop page, slides and cheat sheet: https://gerfalcon.github.io/portfolio/workshops/terminal-tips/
+Workshop page and cheat sheet: https://gerfalcon.github.io/portfolio/workshops/terminal-tips/
 
 Python 3.8 or newer and Git. Nothing else to install. It runs in Google Cloud Shell
 or on your own computer.
