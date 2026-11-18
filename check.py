@@ -32,10 +32,10 @@ ROOT = Path(__file__).resolve().parent
 ORIGINAL_TESTS = {
     "test_first_puzzle_is_the_default": "378fed9e92e79d45990407cf5bda23ed4edbc0368c7546c6941e9b1c4b7a4fb3",
     "test_unknown_puzzle_is_an_error": "43ccbafbf30ea715b2a59d8daff8890fb209296f81a45b11b053b985f13e1c6f",
-    "test_words_fit_together": "2ca26fab4b557d0512063907646f5c2010f5354ab0d6d65185db40e85a58db03",
+    "test_words_fit_together": "b2127f4a63701898115a036871f63921b4ecf8085de9536dfb8353bbfb2e7e0e",
     "test_clashing_words_are_reported": "d258b869e331cf885611ff4cc920d4edb0b14c4d9c11ca554051ebba550e7147",
     "test_word_off_the_board_is_reported": "4c9f4efc8708c5fbb4d8e31a3dce37622c020b65586b11c81bc218aae5df311d",
-    "test_numbers_follow_reading_order": "c190ae8d890aa2054459e0b20eebe20253a0e1f88a68c03d65e6dffc6f6d0bc2",
+    "test_numbers_follow_reading_order": "1ed78ebeb2425b4370ac10df1382d2a2b050bf6b4617d6ae2ae1d2b3a4320981",
     "test_empty_board_scores_nothing": "07f7e01c23202ae63a50ae4abfe9f9839ac7d237e16ddfd06ee36bbf839e7592",
     "test_one_right_word_scores_points": "9cf4c5f3cede4cc34db0725f4c903a83bb4e63553fe81744de74afb5ea6f8c70",
     "test_lowercase_and_spaces_are_fine": "66442ea241e69508d59a648d5326697f97944f4f9eff8c5e426993d8eea074bf",

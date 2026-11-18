@@ -7,8 +7,8 @@
       "cols": 6,
       "words": [
         {"id": "1A", "answer": "PROMPT", "row": 0, "col": 0, "dir": "across", "clue": "What you type to the agent"},
-        {"id": "4A", "answer": "ARGS", "row": 2, "col": 2, "dir": "across", "clue": "Extra words after a command, for short"},
-        {"id": "5A", "answer": "OPEN", "row": 4, "col": 1, "dir": "across", "clue": "A session you forgot to close is still this"},
+        {"id": "4A", "answer": "GIT", "row": 3, "col": 3, "dir": "across", "clue": "It remembers every version of your code"},
+        {"id": "5A", "answer": "IDE", "row": 4, "col": 1, "dir": "across", "clue": "A code editor with the tools built in, for short"},
         {"id": "1D", "answer": "PLAN", "row": 0, "col": 0, "dir": "down", "clue": "Read it before the code"},
         {"id": "2D", "answer": "MERGE", "row": 0, "col": 3, "dir": "down", "clue": "Bring two branches together"},
         {"id": "3D", "answer": "TEST", "row": 0, "col": 5, "dir": "down", "clue": "Proves your code works"}
