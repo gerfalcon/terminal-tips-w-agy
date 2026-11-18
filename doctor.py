@@ -1,4 +1,4 @@
-"""Setup check for the workshop. Run it once before the session.
+"""Setup check for the workshop. Run it once, at the start.
 
     python3 doctor.py       (Cloud Shell, macOS, Linux)
     python doctor.py        (Windows)
@@ -108,7 +108,8 @@ def check_agy():
             "Then open a NEW terminal and run this script again.",
         ]
     worked, version = run([agy, "--version"])
-    return True, (version if worked and version else "agy found"), []
+    found = f"agy (Antigravity CLI) is installed: {version}" if worked and version else "agy (Antigravity CLI) is installed"
+    return True, found, []
 
 
 def check_port():
@@ -142,13 +143,13 @@ def main():
         if not ok:
             failures += 1
 
-    print("[note] Sign-in is not checked here. Start agy once and sign in")
-    print("       with a personal Google account, not a university one.")
+    print("[note] Sign-in is not checked here. Start agy once and sign in with")
+    print("       Google. If a work or university account fails, use a personal one.")
     print()
     if failures:
         print(f"{failures} thing(s) to fix. Fix the [FAIL] lines, then run this again.")
         return 1
-    print("You are ready. See you at the workshop.")
+    print("You are ready. On to the next step of the codelab.")
     return 0
 
 
