@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Crossword: Terminal words</title>
+<link rel="icon" href="data:,">
+<link rel="stylesheet" href="static/style.css">
+</head>
+<body data-puzzle="terminal-1">
+<main>
+<h1>Terminal words</h1>
+<div class="game">
+<table class="board">
+<tr><td><span class="num">1</span><input data-cell="0,0" maxlength="1" aria-label="Row 1, column 1" autocomplete="off"></td><td><input data-cell="0,1" maxlength="1" aria-label="Row 1, column 2" autocomplete="off"></td><td><input data-cell="0,2" maxlength="1" aria-label="Row 1, column 3" autocomplete="off"></td><td><span class="num">2</span><input data-cell="0,3" maxlength="1" aria-label="Row 1, column 4" autocomplete="off"></td><td><input data-cell="0,4" maxlength="1" aria-label="Row 1, column 5" autocomplete="off"></td><td><span class="num">3</span><input data-cell="0,5" maxlength="1" aria-label="Row 1, column 6" autocomplete="off"></td></tr>
+<tr><td><input data-cell="1,0" maxlength="1" aria-label="Row 2, column 1" autocomplete="off"></td><td class="block"></td><td class="block"></td><td><input data-cell="1,3" maxlength="1" aria-label="Row 2, column 4" autocomplete="off"></td><td class="block"></td><td><input data-cell="1,5" maxlength="1" aria-label="Row 2, column 6" autocomplete="off"></td></tr>
+<tr><td><input data-cell="2,0" maxlength="1" aria-label="Row 3, column 1" autocomplete="off"></td><td class="block"></td><td><span class="num">4</span><input data-cell="2,2" maxlength="1" aria-label="Row 3, column 3" autocomplete="off"></td><td><input data-cell="2,3" maxlength="1" aria-label="Row 3, column 4" autocomplete="off"></td><td><input data-cell="2,4" maxlength="1" aria-label="Row 3, column 5" autocomplete="off"></td><td><input data-cell="2,5" maxlength="1" aria-label="Row 3, column 6" autocomplete="off"></td></tr>
+<tr><td><input data-cell="3,0" maxlength="1" aria-label="Row 4, column 1" autocomplete="off"></td><td class="block"></td><td class="block"></td><td><input data-cell="3,3" maxlength="1" aria-label="Row 4, column 4" autocomplete="off"></td><td class="block"></td><td><input data-cell="3,5" maxlength="1" aria-label="Row 4, column 6" autocomplete="off"></td></tr>
+<tr><td class="block"></td><td><span class="num">5</span><input data-cell="4,1" maxlength="1" aria-label="Row 5, column 2" autocomplete="off"></td><td><input data-cell="4,2" maxlength="1" aria-label="Row 5, column 3" autocomplete="off"></td><td><input data-cell="4,3" maxlength="1" aria-label="Row 5, column 4" autocomplete="off"></td><td><input data-cell="4,4" maxlength="1" aria-label="Row 5, column 5" autocomplete="off"></td><td class="block"></td></tr>
+</table>
+
+<div class="clues"><section><h2>Across</h2><ol><li data-word="1A"><b>1</b> What you type to the agent (6)</li><li data-word="4A"><b>4</b> Extra words after a command, for short (4)</li><li data-word="5A"><b>5</b> A session you forgot to close is still this (4)</li></ol></section><section><h2>Down</h2><ol><li data-word="1D"><b>1</b> Read it before the code (4)</li><li data-word="2D"><b>2</b> Bring two branches together (5)</li><li data-word="3D"><b>3</b> Proves your code works (4)</li></ol></section></div>
+</div>
+<div class="actions">
+<button id="check" type="button">Check</button>
+<p id="score" role="status">Fill in the words, then press Check.</p>
+</div>
+</main>
+<script src="static/app.js"></script>
+</body>
+</html>

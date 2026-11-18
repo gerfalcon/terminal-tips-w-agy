@@ -1,0 +1,11 @@
+{
+  "coverage-gate": {
+    "Stop": [
+      {
+        "type": "command",
+        "command": "python3 tools/stop_hook.py --min-coverage 95",
+        "timeout": 120
+      }
+    ]
+  }
+}

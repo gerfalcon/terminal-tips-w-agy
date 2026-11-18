@@ -1,0 +1,52 @@
+:root {
+  --ink: #202124;
+  --paper: #ffffff;
+  --block: #202124;
+  --line: #9aa0a6;
+  --right: #e6f4ea;
+  --accent: #1a73e8;
+  font-family: system-ui, -apple-system, "Segoe UI", Roboto, sans-serif;
+  color: var(--ink);
+  background: #f8f9fa;
+}
+main { max-width: 760px; margin: 2rem auto; padding: 0 1rem; }
+h1 { font-size: 1.6rem; margin: 0 0 1rem; }
+.game { display: flex; flex-wrap: wrap; gap: 2rem; align-items: flex-start; }
+.board { border-collapse: collapse; }
+.board td {
+  position: relative;
+  width: 2.6rem;
+  height: 2.6rem;
+  padding: 0;
+  border: 1px solid var(--line);
+  background: var(--paper);
+}
+.board td.block { background: var(--block); border-color: var(--block); }
+.board td.right { background: var(--right); }
+.board input {
+  width: 100%;
+  height: 100%;
+  border: 0;
+  background: transparent;
+  text-align: center;
+  font-size: 1.3rem;
+  font-weight: 600;
+  text-transform: uppercase;
+  color: var(--ink);
+}
+.board input:focus { outline: 2px solid var(--accent); outline-offset: -2px; }
+.num { position: absolute; top: 1px; left: 3px; font-size: 0.6rem; color: #5f6368; }
+.clues { flex: 1; min-width: 240px; }
+.clues h2 { font-size: 1rem; margin: 0 0 0.4rem; }
+.clues ol { list-style: none; padding: 0; margin: 0 0 1rem; line-height: 1.6; }
+.actions { margin-top: 1.5rem; display: flex; align-items: center; gap: 1rem; }
+button {
+  font: inherit;
+  padding: 0.5rem 1.2rem;
+  border: 0;
+  border-radius: 999px;
+  background: var(--accent);
+  color: #fff;
+  cursor: pointer;
+}
+#score { margin: 0; }
