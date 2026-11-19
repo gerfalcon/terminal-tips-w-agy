@@ -18,7 +18,7 @@ ON_WINDOWS = sys.platform.startswith("win")
 
 REPO_FILES = [
     "AGENTS.md", "check.py", "serve.py", "game/puzzle.py", "game/render.py", "game/puzzles.json",
-    "static/app.js", "tests/test_puzzle.py", "tools/run_tests.py", "tools/stop_hook.py",
+    "static/app.js", "tests/test_render.py", "tools/run_tests.py", "tools/stop_hook.py",
     "tasks/levels.md", "tasks/leaderboard.md", "tasks/more-words.md",
 ]
 
