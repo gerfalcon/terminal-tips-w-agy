@@ -21,7 +21,7 @@ On Windows, type `python` instead of `python3`.
 |---|---|
 | `game/` | puzzles, rules, scoring and the HTML |
 | `static/` | the browser code |
-| `tests/` | unit, server and snapshot tests |
+| `tests/` | one snapshot test to start with. You add the rest in the lab |
 | `tasks/` | work for the agent: levels, leaderboard, more words |
 | `tools/run_tests.py` | runs the tests with line coverage, standard library only |
 | `tools/stop_hook.py`, `tools/hooks.json` | a Stop hook for Antigravity CLI: the agent may stop only when the check passes |

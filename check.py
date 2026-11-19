@@ -30,24 +30,7 @@ ROOT = Path(__file__).resolve().parent
 # The tests this repo started with, with their fingerprints (SHA-256).
 # New tests may be added. These may not be removed, skipped or changed.
 ORIGINAL_TESTS = {
-    "test_first_puzzle_is_the_default": "378fed9e92e79d45990407cf5bda23ed4edbc0368c7546c6941e9b1c4b7a4fb3",
-    "test_unknown_puzzle_is_an_error": "43ccbafbf30ea715b2a59d8daff8890fb209296f81a45b11b053b985f13e1c6f",
-    "test_words_fit_together": "b2127f4a63701898115a036871f63921b4ecf8085de9536dfb8353bbfb2e7e0e",
-    "test_clashing_words_are_reported": "d258b869e331cf885611ff4cc920d4edb0b14c4d9c11ca554051ebba550e7147",
-    "test_word_off_the_board_is_reported": "4c9f4efc8708c5fbb4d8e31a3dce37622c020b65586b11c81bc218aae5df311d",
-    "test_numbers_follow_reading_order": "1ed78ebeb2425b4370ac10df1382d2a2b050bf6b4617d6ae2ae1d2b3a4320981",
-    "test_empty_board_scores_nothing": "07f7e01c23202ae63a50ae4abfe9f9839ac7d237e16ddfd06ee36bbf839e7592",
-    "test_one_right_word_scores_points": "9cf4c5f3cede4cc34db0725f4c903a83bb4e63553fe81744de74afb5ea6f8c70",
-    "test_lowercase_and_spaces_are_fine": "66442ea241e69508d59a648d5326697f97944f4f9eff8c5e426993d8eea074bf",
-    "test_full_solution_is_done": "3346608d4177a4a9ae1a8ce720b49b5c537745bf80c82522b3218c97af814b9c",
-    "test_one_input_per_letter": "9c5f0b101c4a39792dd09e795269ed4badfc6ffa67a0930511e908e7f26d6672",
-    "test_clues_show_number_and_length": "50230b4e9a68edab608206768f5cb35652828b14c557b5da3626dd52fe7f8843",
     "test_page_matches_snapshot": "3724c55eb89b7f16d1268ebdcbd01a00cfb6bec1ec1e4cd8697fb5bdc77e6d5a",
-    "test_home_page_shows_the_board": "b4db7e519b6291b71ec920a62fe2a5a507635d9edd1a9da31cf57974b1b40f90",
-    "test_static_files_are_served": "cd2350a8dbc05443551ebfd69345453b6482be87b35990f8bc5c793c65319aeb",
-    "test_check_scores_answers": "e6ebe107b1354b2b463fb4c94bcd55073028ecd75e5a571ea974c97a943708f4",
-    "test_bad_request_is_refused": "74aeb77a70b1807db7432f25a96dbac7c8c05cee410ce93194ce63ba807f110c",
-    "test_unknown_pages_are_not_found": "9438ecc81fefdc3df4458e4741cf759e9627d7bb63c3a7107ebbb09a40101c91",
 }
 
 
